@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+}
+
+.title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0;
+}
+
+.submit{
+    background-color: lightskyblue;
+}
+
+input, textarea, button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+}
+.form-wrapper{
+    width: 400px;
+    margin: auto;
+}
+.cards-wrapper{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 24%;
+    border: 2px solid gold;
+    padding: 10px;
+    margin: .5%;
+}
+
+.product-name{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.price{
+    background-color: #ffbf2b;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.buttons-wrapper{
+    display: flex;
+}
+
+.update{
+    background-color: greenyellow;
+    border-radius: 8px;
+}
+
+.delete{
+    background-color: red;
+    border-radius: 8px;
+}

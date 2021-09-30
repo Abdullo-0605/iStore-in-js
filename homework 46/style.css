@@ -1,0 +1,195 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #ece8e8;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+nav {
+  background-color: #e44d3a;
+  padding: 1px 0;
+}
+
+nav .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+
+nav .container .search {
+  font-size: 32px;
+  font-weight: bold;
+  font-size: 32px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+}
+
+nav .container .search .search-input {
+  height: 25px;
+  border: none;
+}
+
+nav .container .search .search-button {
+  height: 27px;
+  position: absolute;
+  top: 11px;
+  left: 354px;
+  color: #F28B82;
+  border: none;
+}
+
+nav .container .navs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+nav .container .navs li .home {
+  color: white;
+  text-align: center;
+}
+
+nav .container .navs li a {
+  padding: 10px 0px;
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  position: relative;
+}
+
+.facebook-bg {
+  background-image: url(./346635-PAVK7G-211.jpg);
+  width: 1536px;
+  height: 400px;
+  color: #3737ad;
+}
+
+.facebook-bg .facebook-bg-color {
+  background-color: white;
+  text-align: center;
+  width: 205px;
+  height: 220px;
+  position: absolute;
+  top: 360px;
+  left: 280px;
+  border-radius: 50%;
+  background-position: center;
+  z-index: 2;
+}
+
+.facebook-bg .facebook-bg-color .facebook-logo {
+  font-size: 200px;
+  width: 100%;
+  height: 100%;
+}
+
+.follow {
+  background-color: white;
+  width: 300px;
+  height: 500px;
+  z-index: 1;
+  position: absolute;
+  top: 472px;
+  left: 240px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.follow .button {
+  width: 130px;
+  position: absolute;
+  top: 140px;
+  left: 80px;
+  border: none;
+  background-color: lightgreen;
+  padding: 10px;
+  color: white;
+  font-size: 17px;
+}
+
+.follow .following {
+  text-align: center;
+  position: absolute;
+  top: 200px;
+  left: 50px;
+  font-size: 17px;
+}
+
+.follow .following .text {
+  color: #aaa6a6;
+}
+
+.follow .followers {
+  font-size: 17px;
+  position: absolute;
+  top: 200px;
+  left: 175px;
+  text-align: center;
+}
+
+.follow .followers .text {
+  color: #aaa6a6;
+}
+
+.follow .links-wrapper {
+  margin-bottom: 20px;
+}
+
+.follow .links-wrapper .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 45px;
+  padding: 15px 13px;
+  background-color: #fff;
+  margin-bottom: 2px;
+  font-size: 13px;
+}
+
+.follow .links-wrapper .link .link-text {
+  color: #59a8fb;
+  margin-left: 7px;
+}
+
+.follow .Inc {
+  width: 200px;
+  position: absolute;
+  top: 10px;
+  left: 330px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.follow .when {
+  color: #aaa6a6;
+  position: absolute;
+  top: 60px;
+  left: 330px;
+  font-size: 18px;
+  width: 300px;
+}
+
+.follow .when b {
+  font-size: 20px;
+  color: yellow;
+}
+/*# sourceMappingURL=style.css.map */
